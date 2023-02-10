@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": false,
+  "tslint.enable": false,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "git.ignoreLimitWarning": true,
+  "markdownlint.config": {
+    "default": true,
+    "MD033": {
+      "allowed_elements": [ "summary", "details" ]
+    }
+  }
+}

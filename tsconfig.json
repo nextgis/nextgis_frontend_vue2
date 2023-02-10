@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "baseUrl": ".",
+    "sourceMap": false,
+    "target": "es5",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "removeComments": false,
+    "lib": ["esnext", "dom"],
+    "types": ["node"],
+    "rootDir": ".",
+
+    "jsx": "react",
+
+    "emitDecoratorMetadata": true,
+    "noImplicitReturns": false,
+
+    "paths": {
+      "@nextgis/*": ["./packages/*/src/"]
+    }
+  },
+  "include": ["packages/global.d.ts", "packages/*/src"],
+  "exclude": ["node_modules"]
+}

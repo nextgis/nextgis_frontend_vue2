@@ -1,0 +1,14 @@
+{
+  "packages": ["packages/*"],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "1.16.6",
+  "command": {
+    "version": {
+      "message": "chore(release): publish %s"
+    },
+    "publish": {
+      "ignoreChanges": ["@nextgis/frontend_test", "@nextgis/demo-app"]
+    }
+  }
+}
