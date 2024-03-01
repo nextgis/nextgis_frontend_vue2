@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "stripInternal": true
+  },
+  "include": [
+    "packages/*/src",
+    "./@nextgis/packages/global.d.ts",
+    "./@nextgis/packages/mapboxgl-map-adapter/src/maplibregl.d.ts",
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

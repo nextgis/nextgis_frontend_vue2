@@ -232,6 +232,12 @@ bower_components
 ### Project Specific
 dist
 lib
+docs/build
+packages/demo/src/api.json
 temp
+!packages/build-tools/lib
 stats.html
 *.tgz
+**/.yarn
+.yarn
+input

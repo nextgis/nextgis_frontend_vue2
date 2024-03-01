@@ -4,26 +4,55 @@
   "scripts": {
     "clean": "lerna run clean",
     "dev": "lerna run dev",
-    "prod": "node ./packages/build-tools/lib/build.js --release",
+    "prod": "node ./@nextgis/packages/build-tools/lib/build.js --release",
+    "prod:each": "lerna run prod && npm run test:build",
+    "build-dts": "npx tsc -p tsconfig.build.json && rollup -c ./@nextgis/packages/build-tools/lib/rollup.dts.config.js",
     "lint": "lerna run lint",
-    "test:build": "node ./scripts/testBuildCmd.js",
+    "lint:eslint": "eslint --fix --ext .js,.ts ./packages/**/src/**/*.ts",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "publish": "npm run test:build && lerna publish from-package",
     "patch": "npm run test:build && lerna version patch --conventional-commits -m \"chore(release): publish %s\" --no-push --create-release github",
     "minor": "npm run test:build && lerna version minor --conventional-commits -m \"chore(release): publish %s\" --no-push --create-release github",
     "prerelease": "npm run test:build && lerna version --conventional-commits --conventional-prerelease -m \"chore(release): publish %s\" --no-push --create-release github"
   },
+  "homepage": "https://code.nextgis.com",
+  "repository": "https://github.com/nextgis/nextgis_frontend_vue2",
   "devDependencies": {
+    "@nextgis/build-tools": "1.19.0",
+    "@nextgis/eslint-config": "^1.19.0",
+    "@rollup/plugin-alias": "^5.1.0",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-image": "^3.0.3",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/cssnano": "^5.1.0",
     "@types/node": "^18.11.0",
+    "autoprefixer": "^10.4.17",
+    "chalk": "^5.3.0",
+    "cssnano": "^6.0.5",
+    "esbuild": "^0.20.1",
     "eslint-plugin-tsdoc": "^0.2.17",
-    "lerna": "^6.0.1",
+    "execa": "^8.0.1",
+    "lerna": "^6.6.1",
     "lint-staged": "^13.0.3",
-    "rimraf": "^3.0.2",
+    "postcss": "^8.4.35",
+    "postcss-url": "^10.1.3",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.12.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-polyfill-node": "^0.13.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "~5.1",
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
     "#pre-commit": "lint-staged",
-    "commit-msg": "node scripts/verifyCommit.js"
+    "commit-msg": "node scripts/verifyCommit.mjs"
   },
   "lint-staged": {
     "*.ts?(x)": [
@@ -34,6 +63,5 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ],
-  "dependencies": {}
+  ]
 }

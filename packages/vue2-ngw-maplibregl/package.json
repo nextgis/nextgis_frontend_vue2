@@ -1,0 +1,50 @@
+{
+  "name": "@nextgis/vue2-ngw-maplibregl",
+  "version": "1.0.0",
+  "description": "Vue2 NextGIS Web map component for Maplibre GL JS",
+  "main": "lib/vue2-ngw-maplibregl.js",
+  "module": "lib/vue2-ngw-maplibregl.esm-bundler.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@nextgis/mapboxgl-map-adapter": "*",
+    "@nextgis/vue2-ngw-map": "^1.0.0",
+    "maplibre-gl": "^3"
+  },
+  "devDependencies": {
+    "@nextgis/build-tools": "^1.19.0",
+    "maplibre-gl": "^3.3.1"
+  },
+  "buildOptions": {
+    "name": "VueNgwMaplibregl",
+    "injectCss": true,
+    "tsbuild": true,
+    "formats": [
+      "esm-bundler"
+    ]
+  },
+  "scripts": {
+    "clean": "rimraf ./lib",
+    "dev": "node ../build-tools/lib/build.js",
+    "prod": "npm run dev -- --release",
+    "lint": "eslint ./src/**/*.ts --fix --c ../../.eslintrc",
+    "watch": "npm run dev -- --watch"
+  },
+  "keywords": [
+    "NextGIS",
+    "MAP"
+  ],
+  "author": "NextGIS",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-maplibregl#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nextgis/nextgis_frontend_vue2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nextgis/nextgis_frontend_vue2/issues"
+  }
+}

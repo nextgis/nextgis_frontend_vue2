@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
-    /* Basic Options */
     "baseUrl": ".",
+    "outDir": "temp",
     "sourceMap": false,
-    "target": "es5",
+    "target": "es2016",
     "module": "esnext",
     "moduleResolution": "node",
     "allowJs": false,
@@ -13,7 +13,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "removeComments": false,
-    "lib": ["esnext", "dom"],
+    "lib": ["es2016", "dom"],
     "types": ["node"],
     "rootDir": ".",
 
@@ -22,10 +22,20 @@
     "emitDecoratorMetadata": true,
     "noImplicitReturns": false,
 
+    "newLine": "LF",
+    "useDefineForClassFields": false,
+
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
     "paths": {
-      "@nextgis/*": ["./packages/*/src/"]
+      "@nextgis/*": ["./packages/*/src/", "./@nextgis/packages/*/src/"]
     }
   },
-  "include": ["packages/global.d.ts", "packages/*/src"],
-  "exclude": ["node_modules"]
+  "include": [
+    "@nextgis/packages/global.d.ts",
+    "@nextgis/packages/mapboxgl-map-adapter/src/maplibregl.d.ts",
+    "packages/*/src"
+  ],
+  "exclude": ["tests", "node_modules"]
 }
