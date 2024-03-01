@@ -24,7 +24,7 @@ Vue 2 Map components for NextGIS Frontend
 
 - [vue2-ngw-leaflet](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-leaflet) – integrate NextGIS Web maps into vue2.js with leaflet adapter;
 - [vue2-ngw-ol](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-ol) – integrate NextGIS Web maps into vue2.js with openlayers adapter;
-- [vue2-ngw-maplibregl](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-maplibregl) – integrate NextGIS Web maps into vue2.js with Maplibre GL JS js adapter;
+- [vue2-ngw-maplibre-gl](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-maplibre-gl) – integrate NextGIS Web maps into vue2.js with Maplibre GL JS js adapter;
 - [vue2-ngw-map](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-map) – abstract plugin to integrate NextGIS Web maps into vue2.js;
 - [vue2-ngw-vuetify](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-vuetify) – vuetify components for NextGIS Web Frontend
 - [vue2-ngw-vuex](https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-vuex) – [Vuex](https://v3.vuex.vuejs.org/) store for NextGIS Web resources;

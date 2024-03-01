@@ -1,9 +1,9 @@
 {
-  "name": "@nextgis/vue2-ngw-maplibregl",
+  "name": "@nextgis/vue2-ngw-maplibre-gl",
   "version": "1.0.0",
   "description": "Vue2 NextGIS Web map component for Maplibre GL JS",
-  "main": "lib/vue2-ngw-maplibregl.js",
-  "module": "lib/vue2-ngw-maplibregl.esm-bundler.js",
+  "main": "lib/vue2-ngw-maplibre-gl.js",
+  "module": "lib/vue2-ngw-maplibre-gl.esm-bundler.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/mapboxgl-map-adapter": "*",
@@ -39,7 +39,7 @@
     "lib"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-maplibregl#readme",
+  "homepage": "https://github.com/nextgis/nextgis_frontend_vue2/tree/master/packages/vue2-ngw-maplibre-gl#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nextgis/nextgis_frontend_vue2.git"
