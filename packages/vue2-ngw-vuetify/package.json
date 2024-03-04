@@ -1,6 +1,6 @@
 {
   "name": "@nextgis/vue2-ngw-vuetify",
-  "version": "1.0.0",
+  "version": "2.0.0-alpha.0",
   "description": "Vuetify components for NextGIS Web",
   "main": "index.js",
   "module": "lib/vue2-ngw-vuetify.esm-bundler.js",
