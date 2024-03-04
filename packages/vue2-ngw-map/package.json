@@ -6,15 +6,15 @@
   "module": "lib/vue2-ngw-map.esm-bundler.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/ngw-map": "*",
-    "@nextgis/utils": "*",
+    "@nextgis/ngw-map": "^2.0.0-alpha.0",
+    "@nextgis/utils": "^2.0.0-alpha.0",
     "vue": "2.x",
     "vue-class-component": "7.x",
     "vue-property-decorator": "9.x",
     "vuex-module-decorators": "1.x"
   },
   "devDependencies": {
-    "@nextgis/build-tools": "^1.19.0",
+    "@nextgis/build-tools": "^2.0.0-alpha.0",
     "vue": "^2.6.14",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2",

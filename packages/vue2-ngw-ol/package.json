@@ -6,12 +6,12 @@
   "module": "lib/vue2-ngw-ol.esm-bundler.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/ol-map-adapter": "*",
+    "@nextgis/ol-map-adapter": "^2.0.0-alpha.0",
     "@nextgis/vue2-ngw-map": "^1.0.0",
     "ol": "*"
   },
   "devDependencies": {
-    "@nextgis/build-tools": "^1.19.0",
+    "@nextgis/build-tools": "^2.0.0-alpha.0",
     "ol": "^6.15.1"
   },
   "buildOptions": {

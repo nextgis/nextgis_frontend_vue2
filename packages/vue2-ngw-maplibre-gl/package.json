@@ -6,12 +6,12 @@
   "module": "lib/vue2-ngw-maplibre-gl.esm-bundler.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/mapboxgl-map-adapter": "*",
+    "@nextgis/maplibre-gl-map-adapter": "^2.0.0-alpha.0",
     "@nextgis/vue2-ngw-map": "^1.0.0",
     "maplibre-gl": "^3"
   },
   "devDependencies": {
-    "@nextgis/build-tools": "^1.19.0",
+    "@nextgis/build-tools": "^2.0.0-alpha.0",
     "maplibre-gl": "^3.3.1"
   },
   "buildOptions": {

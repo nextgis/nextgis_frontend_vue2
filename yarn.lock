@@ -613,7 +613,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/build-tools@npm:1.19.0, @nextgis/build-tools@npm:^1.19.0":
+"@nextgis/build-tools@npm:2.0.0-alpha.0, @nextgis/build-tools@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/build-tools@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/eslint-config": ^1.19.0
+    "@rollup/plugin-alias": ^5.1.0
+    "@rollup/plugin-commonjs": ^25.0.7
+    "@rollup/plugin-image": ^3.0.3
+    "@rollup/plugin-json": ^6.1.0
+    "@rollup/plugin-node-resolve": ^15.2.3
+    "@rollup/plugin-replace": ^5.0.5
+    "@rollup/plugin-terser": ^0.4.4
+    "@types/cssnano": ^5.1.0
+    autoprefixer: ^10.4.17
+    chalk: ^5.3.0
+    cssnano: ^6.0.5
+    esbuild: ^0.20.1
+    execa: ^8.0.1
+    postcss: ^8.4.35
+    postcss-url: ^10.1.3
+    rimraf: ^5.0.5
+    rollup: ^4.12.0
+    rollup-plugin-dts: ^6.1.0
+    rollup-plugin-esbuild: ^6.1.1
+    rollup-plugin-polyfill-node: ^0.13.0
+    rollup-plugin-postcss: ^4.0.2
+    rollup-plugin-terser: ^7.0.2
+    rollup-plugin-typescript2: ^0.36.0
+    typescript: ~5.1
+  checksum: 4d8f3127d64f73ddd2b4956f1a33d02cd6122f17885f855ffd21d050452f839d44a1c9e7241ca54081469019278facd1f8c7949576f61f86203e9224156a0b38
+  languageName: node
+  linkType: hard
+
+"@nextgis/build-tools@npm:^1.19.0":
   version: 1.19.0
   resolution: "@nextgis/build-tools@npm:1.19.0"
   dependencies:
@@ -653,6 +686,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nextgis/cache@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/cache@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/utils": ^2.0.0-alpha.0
+  checksum: d5db63344d3a32206c7233d470c009e7980ea438c18d9e46a20824e385b80e86a6a863796ac189523af157e455c4419f7550d46f8f9df278a6b64079a5788551
+  languageName: node
+  linkType: hard
+
 "@nextgis/cancelable-promise@npm:^1.19.0":
   version: 1.19.0
   resolution: "@nextgis/cancelable-promise@npm:1.19.0"
@@ -660,27 +702,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/control-container@npm:^1.19.2":
-  version: 1.19.2
-  resolution: "@nextgis/control-container@npm:1.19.2"
+"@nextgis/cancelable-promise@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/cancelable-promise@npm:2.0.0-alpha.0"
+  checksum: a223f0721b998d007d28775eddc5d0c57ef975590a710fda36d4bc971ba5e66fcd88b5d28c2fd78a31e2f5d160d766b316b6d8714b6db9c0665eca2bd81b256e
+  languageName: node
+  linkType: hard
+
+"@nextgis/control-container@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/control-container@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/dom": ^1.19.0
-    "@nextgis/utils": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
+    "@nextgis/dom": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
-    events: ^3.3.0
-  checksum: 77c58666d04d7ff5a0b3fd8079b71ca9fe05a6e52816bd9d5947d66d4e4af1a9541b9d2e1498613362cd8daf19a23f9be7c8b6d2b56354f0290a5c4708b71be5
+    events: "*"
+  checksum: aed09d36c32ea28ba7e1c0a1b6c382636934a8c4bffe4bdf01ecf35377c722fee0eab3d7a98bf3d735ba1ead3a8684c7fc497aefa8a84037447cc43a683b85ce
   languageName: node
   linkType: hard
 
-"@nextgis/dom@npm:^1.19.0":
-  version: 1.19.0
-  resolution: "@nextgis/dom@npm:1.19.0"
-  checksum: 2547eb1d2b26644b9dfc69cac19313f5b2145475659a42431f38cc077e5a08eff3dee82df00346fd7736cb67320554c3b920c605a7f977bf9266927810ed5239
+"@nextgis/dom@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/dom@npm:2.0.0-alpha.0"
+  checksum: 489a4cb9a1fa51a518d4a0b26616a4931397cab9b052e7d7af99f5e5b636ad7c3b3ed4624d82fa452b05c370315fbbab360fbc8aa5de44df730b84baa52b1f88
   languageName: node
   linkType: hard
 
-"@nextgis/eslint-config@npm:^1.19.0":
+"@nextgis/eslint-config@npm:1.19.0, @nextgis/eslint-config@npm:^1.19.0":
   version: 1.19.0
   resolution: "@nextgis/eslint-config@npm:1.19.0"
   dependencies:
@@ -702,66 +751,73 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/icons@npm:^1.19.0":
-  version: 1.19.0
-  resolution: "@nextgis/icons@npm:1.19.0"
-  dependencies:
-    "@nextgis/paint": ^1.19.0
-  checksum: 5fd400bf68457c780899a1e3312478731f0fc285a2dd02070f31bc371d28ebd548e40f8eb59a2681e64f1a821eae026a285d5d383f8cce699745573efd5bbb1f
+"@nextgis/expression@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/expression@npm:2.0.0-alpha.0"
+  checksum: 1f83351f5c9170db54a5eac983ab27a6174ca8043a42e94aa3684b881cfae8d93f808eb723bde7fc10074fd514dd34936b9ae6fb876aa0017a4fe9a827204704
   languageName: node
   linkType: hard
 
-"@nextgis/item@npm:^1.19.0":
-  version: 1.19.0
-  resolution: "@nextgis/item@npm:1.19.0"
+"@nextgis/icons@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/icons@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/tree": ^1.19.0
+    "@nextgis/paint": ^2.0.0-alpha.0
+  checksum: 04ae9dbea620cb3c439ddd67d58696b54f1eda39d6ef519b6923a84cb9815a0f8cacd9dd1619c86902029ebc6913ff8197749001e1396eb34761fb0f2c67cdce
+  languageName: node
+  linkType: hard
+
+"@nextgis/item@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/item@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/tree": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
-    events: ^3.3.0
-  checksum: 58ff00c7465dbd22c3a20cb6302918c3ed584283d62d58daf25cceb529fb62894f91b125d2cc68968f3215e990b30a8bdde9ccb65e65eebbb05c07133a3c7060
+    events: "*"
+  checksum: 79f99d09a2b5bcf876cc5c2b10d4de8fe613b2f836a34306c0a713b987be47e8048bd3f3ee1a9803a3017de98dfc50b0447fa3b33970d3a54b611108322fa52c
   languageName: node
   linkType: hard
 
-"@nextgis/leaflet-map-adapter@npm:*":
-  version: 1.19.5
-  resolution: "@nextgis/leaflet-map-adapter@npm:1.19.5"
+"@nextgis/leaflet-map-adapter@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/leaflet-map-adapter@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/paint": ^1.19.0
-    "@nextgis/utils": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
+    "@nextgis/paint": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
     "@types/geojson": ^7946.0.8
     "@types/leaflet": ^1.7.5
-    events: ^3.3.0
-    leaflet.wms: ^0.2.0
+    events: "*"
+    leaflet.wms: "*"
   peerDependencies:
-    leaflet: ">=1.7.0"
-  checksum: 725dd20699be5d0394dd44b61d3d6abf20e4f05378e46fcc12d53322f31860ef83d691d22c08bce66a70ffc14f105d1f7716c33961d6f1223910b96379578e60
+    leaflet: ">=1.x"
+  checksum: fe852a20a47e81479183dd58a26ba6a56ae507a9b77eacfa9fab1f9d9573d09d288717dd06371773200a648bdef2c5afdc3d5c224460df42da970adb8ca185d5
   languageName: node
   linkType: hard
 
-"@nextgis/mapboxgl-map-adapter@npm:*":
-  version: 1.19.5
-  resolution: "@nextgis/mapboxgl-map-adapter@npm:1.19.5"
+"@nextgis/maplibre-gl-map-adapter@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/maplibre-gl-map-adapter@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/paint": ^1.19.0
-    "@nextgis/properties-filter": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
+    "@nextgis/paint": ^2.0.0-alpha.0
+    "@nextgis/properties-filter": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
     "@types/polylabel": ^1.0.5
     canvg: ^3.0.9
-    events: ^3.3.0
-    polylabel: ^1.1.0
+    events: "*"
+    polylabel: ^1.*
   peerDependencies:
     maplibre-gl: ">=2.0.0"
   dependenciesMeta:
     canvg:
       optional: true
-  checksum: fdf233b4eb5925e123a74e5415c6de54013d9ea261581ed35b1b70f81c0d53066060ec7c2b90d658d20efebaf786d617294bd65df2ca7f15ed05d6355da1c974
+  checksum: 3f9071bb8fe8f7cce40c0df0373fa224d520030ef6256ab713b8ea5575e5cbe27e3dfb3b017ab66a23660dd2c7a64f6d2e6de25fd120ffc8093c97a8ae00ab5f
   languageName: node
   linkType: hard
 
-"@nextgis/ngw-connector@npm:*, @nextgis/ngw-connector@npm:^1.19.0":
+"@nextgis/ngw-connector@npm:*":
   version: 1.19.0
   resolution: "@nextgis/ngw-connector@npm:1.19.0"
   dependencies:
@@ -775,57 +831,71 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/ngw-kit@npm:^1.19.2":
-  version: 1.19.2
-  resolution: "@nextgis/ngw-kit@npm:1.19.2"
+"@nextgis/ngw-connector@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/ngw-connector@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/cancelable-promise": ^1.19.0
-    "@nextgis/item": ^1.19.0
-    "@nextgis/ngw-connector": ^1.19.0
-    "@nextgis/properties-filter": ^1.19.0
-    "@nextgis/qms-kit": ^1.19.2
-    "@nextgis/utils": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
+    "@nextgis/cache": ^2.0.0-alpha.0
+    "@nextgis/cancelable-promise": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
-    events: ^3.3.0
-    strict-event-emitter-types: ^2.0.0
-  checksum: 469bc1e46e0758d2838a6356d1e60a01fe7bb84b41038712963e2ca6da07bf68749cd30470764e5234e1709aa4496ce649ac12427660de76604a377b878329f9
+    events: "*"
+    form-data: ^4.0.0
+  checksum: dd45be37b7c5f86f550258a5a52812ab0ac0cee096f3ec954f22fc4a37a9c5b79b497d7a9bd65f86d2bdddd588556c976ce8764fe99ef4eab57f4a9bd68a4ec1
   languageName: node
   linkType: hard
 
-"@nextgis/ngw-map@npm:*":
-  version: 1.19.2
-  resolution: "@nextgis/ngw-map@npm:1.19.2"
+"@nextgis/ngw-kit@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/ngw-kit@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/icons": ^1.19.0
-    "@nextgis/ngw-connector": ^1.19.0
-    "@nextgis/ngw-kit": ^1.19.2
-    "@nextgis/qms-kit": ^1.19.2
-    "@nextgis/utils": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
+    "@nextgis/cancelable-promise": ^2.0.0-alpha.0
+    "@nextgis/item": ^2.0.0-alpha.0
+    "@nextgis/ngw-connector": ^2.0.0-alpha.0
+    "@nextgis/properties-filter": ^2.0.0-alpha.0
+    "@nextgis/qms-kit": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
-    events: ^3.3.0
+    events: "*"
     strict-event-emitter-types: ^2.0.0
-  checksum: e3068f05d34b2f8eb9c4ef109267c648a57641c70dbb63414d5105f12b02a0b6321d8da22135af895301c98875189a584d66319c5e660fa6cfd861c8f4f4fb2e
+  checksum: ecc93a8f9405c3a22b75d2e6bbab846a1f8fe1e932afa1e6b063f4bd612f64a6a01b496fea5c5b6bda6c6ebee4e0ef88db052fb427a4e38d69e0dcb7a89de734
   languageName: node
   linkType: hard
 
-"@nextgis/ol-map-adapter@npm:*":
-  version: 1.19.4
-  resolution: "@nextgis/ol-map-adapter@npm:1.19.4"
+"@nextgis/ngw-map@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/ngw-map@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/control-container": ^1.19.2
-    "@nextgis/dom": ^1.19.0
-    "@nextgis/paint": ^1.19.0
-    "@nextgis/properties-filter": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
+    "@nextgis/icons": ^2.0.0-alpha.0
+    "@nextgis/ngw-connector": ^2.0.0-alpha.0
+    "@nextgis/ngw-kit": ^2.0.0-alpha.0
+    "@nextgis/qms-kit": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
+    "@types/events": ^3.0.0
+    events: "*"
+    strict-event-emitter-types: ^2.0.0
+  checksum: bf130754d9c8b64f2c1caa4beaf681108d2bf077a01dcdaba36b07464776755e68bc21e5c9e1b3af3d0ec2bdd69abcb1d996429d7f12d82a4d41ddd4c1ee6779
+  languageName: node
+  linkType: hard
+
+"@nextgis/ol-map-adapter@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/ol-map-adapter@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/control-container": ^2.0.0-alpha.0
+    "@nextgis/dom": ^2.0.0-alpha.0
+    "@nextgis/paint": ^2.0.0-alpha.0
+    "@nextgis/properties-filter": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
     "@types/events": ^3.0.0
     "@types/polylabel": ^1.0.5
-    events: ^3.3.0
+    events: "*"
     polylabel: ^1.1.0
   peerDependencies:
     ol: ">=6.0.0"
-  checksum: 1e66ecc2d79b3a6a6a5722167d1e3d57fcfbc20329057c41367d7baabc616a478d6e2ad0e7304280adb484a5eead5610c1174bf94495301edea4ab6066a80baa
+  checksum: 4244f3773ebb3bf1dd0ae948d7e6ce9fba30d05deaafa522847eada762e7510ac88bcbb75ce8a0b5ae62c43a1c5c2283d6744584f65876de63462aea2758bf26
   languageName: node
   linkType: hard
 
@@ -840,6 +910,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nextgis/paint@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/paint@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/expression": ^2.0.0-alpha.0
+    "@nextgis/properties-filter": ^2.0.0-alpha.0
+    "@types/geojson": ^7946.0.8
+  checksum: 58b72e2e2d06fbc304cd4b67bb5ed25c564bf10d12ca9e29e0d8c68cb3faf46f3fac30128ef8a5d57f081c41f452a7aca82992cbbefdd31e752fcf9dd1bde485
+  languageName: node
+  linkType: hard
+
 "@nextgis/properties-filter@npm:^1.19.0":
   version: 1.19.0
   resolution: "@nextgis/properties-filter@npm:1.19.0"
@@ -850,30 +931,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/qms-kit@npm:^1.19.2":
-  version: 1.19.2
-  resolution: "@nextgis/qms-kit@npm:1.19.2"
+"@nextgis/properties-filter@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/properties-filter@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/utils": ^1.19.0
-    "@nextgis/webmap": ^1.19.2
-  checksum: 2f4adf9838932b65e89c33284716d70fd3cbf27623c8ce8b7d8db0e69ab67fe2656e115213d2a76fd895301edada9f2fef32d06076edc16942b2a4cbf65e2562
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@types/geojson": ^7946.0.8
+  checksum: 724467d6783ad4c09ec42cbc70004880da24cc245a30029aafb7cb7060be65c104baee5bd17178e437673e98ad04e8f94d8ab58f24bda0a04fe9d14ff758e2f7
   languageName: node
   linkType: hard
 
-"@nextgis/tree@npm:^1.19.0":
-  version: 1.19.0
-  resolution: "@nextgis/tree@npm:1.19.0"
+"@nextgis/qms-kit@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/qms-kit@npm:2.0.0-alpha.0"
   dependencies:
-    "@nextgis/properties-filter": ^1.19.0
-    "@nextgis/utils": ^1.19.0
-  checksum: 25d00fe7a46cc85191b09ab692fb201076c1e756341bbc54983388b760b5d077941a1a9533805f7bc45cc4a868c2f896fa9629f3f8407326ed16ee2b1a44221e
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@nextgis/webmap": ^2.0.0-alpha.0
+  checksum: 9b07f4cc57bf5307e3ed1fe63bb3bf537a6767ea838749f0d00a9fe276b0f8c07edb2690ad1e492da14ab5082c5bd2aeb3617d9813c2492e124b8f7c2f6945da
   languageName: node
   linkType: hard
 
-"@nextgis/utils@npm:*, @nextgis/utils@npm:^1.19.0":
+"@nextgis/tree@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/tree@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/properties-filter": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
+  checksum: 146c46145e0488c87f85cf57ec780f256967455864a8400025f4769ef4b298121b6b03ae9dc52a8bc61cc3707df0c8eb13089fee045d48b0373e7b440452c91d
+  languageName: node
+  linkType: hard
+
+"@nextgis/utils@npm:^1.19.0":
   version: 1.19.0
   resolution: "@nextgis/utils@npm:1.19.0"
   checksum: 5243774aca2e80599d087ed2ca2a4c69b8f80f3e2339d7501b03734521d278c406c81e7f2e086121687f6e8b19b40d2f43ea8b5c1d524e5627131f6fbb558642
+  languageName: node
+  linkType: hard
+
+"@nextgis/utils@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/utils@npm:2.0.0-alpha.0"
+  checksum: 7026c6a339e68f821f1fdf88fabf042082d0e0315b2013a4b99e935e2a237087a44e3c38d685cea4c874f2ca75a3102ed8bff6611011ad064e7b5b228f772349
   languageName: node
   linkType: hard
 
@@ -881,8 +979,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nextgis/vue2-ngw-leaflet@workspace:packages/vue2-ngw-leaflet"
   dependencies:
-    "@nextgis/build-tools": ^1.19.0
-    "@nextgis/leaflet-map-adapter": "*"
+    "@nextgis/build-tools": ^2.0.0-alpha.0
+    "@nextgis/leaflet-map-adapter": ^2.0.0-alpha.0
     "@nextgis/vue2-ngw-map": ^1.0.0
     leaflet: 1.7.1
     leaflet.wms: ^0.2.0
@@ -894,8 +992,8 @@ __metadata:
   resolution: "@nextgis/vue2-ngw-map@workspace:packages/vue2-ngw-map"
   dependencies:
     "@nextgis/build-tools": ^1.19.0
-    "@nextgis/ngw-map": "*"
-    "@nextgis/utils": "*"
+    "@nextgis/ngw-map": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
     vue: ^2.6.14
     vue-class-component: ^7.2.6
     vue-property-decorator: ^9.1.2
@@ -909,7 +1007,7 @@ __metadata:
   resolution: "@nextgis/vue2-ngw-maplibre-gl@workspace:packages/vue2-ngw-maplibre-gl"
   dependencies:
     "@nextgis/build-tools": ^1.19.0
-    "@nextgis/mapboxgl-map-adapter": "*"
+    "@nextgis/maplibre-gl-map-adapter": ^2.0.0-alpha.0
     "@nextgis/vue2-ngw-map": ^1.0.0
     maplibre-gl: ^3.3.1
   languageName: unknown
@@ -919,8 +1017,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nextgis/vue2-ngw-ol@workspace:packages/vue2-ngw-ol"
   dependencies:
-    "@nextgis/build-tools": ^1.19.0
-    "@nextgis/ol-map-adapter": "*"
+    "@nextgis/build-tools": ^2.0.0-alpha.0
+    "@nextgis/ol-map-adapter": ^2.0.0-alpha.0
     "@nextgis/vue2-ngw-map": ^1.0.0
     ol: ^6.15.1
   languageName: unknown
@@ -930,10 +1028,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nextgis/vue2-ngw-vuetify@workspace:packages/vue2-ngw-vuetify"
   dependencies:
-    "@nextgis/build-tools": ^1.19.0
-    "@nextgis/leaflet-map-adapter": "*"
-    "@nextgis/ngw-map": "*"
-    "@nextgis/utils": "*"
+    "@nextgis/build-tools": ^2.0.0-alpha.0
+    "@nextgis/leaflet-map-adapter": ^2.0.0-alpha.0
+    "@nextgis/ngw-map": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
     vue: ^2.6.14
     vue-class-component: ^7.2.6
     vue-property-decorator: ^9.1.2
@@ -957,7 +1055,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@nextgis/webmap@npm:*, @nextgis/webmap@npm:^1.19.2":
+"@nextgis/webmap@npm:*":
   version: 1.19.2
   resolution: "@nextgis/webmap@npm:1.19.2"
   dependencies:
@@ -970,6 +1068,22 @@ __metadata:
     events: ^3.3.0
     strict-event-emitter-types: ^2.0.0
   checksum: 7a3342d280e81d551a085c16fc03a32d185e0555fdc98ac47f19acee7352450ece5483127e0903f800bd028633a1c3d6273d07b13df71d4c486a1d2004137a50
+  languageName: node
+  linkType: hard
+
+"@nextgis/webmap@npm:^2.0.0-alpha.0":
+  version: 2.0.0-alpha.0
+  resolution: "@nextgis/webmap@npm:2.0.0-alpha.0"
+  dependencies:
+    "@nextgis/cancelable-promise": ^2.0.0-alpha.0
+    "@nextgis/paint": ^2.0.0-alpha.0
+    "@nextgis/properties-filter": ^2.0.0-alpha.0
+    "@nextgis/utils": ^2.0.0-alpha.0
+    "@types/events": ^3.0.0
+    "@types/geojson": ^7946.0.8
+    events: "*"
+    strict-event-emitter-types: ^2.0.0
+  checksum: 60e9f26e5ad1910d0d9005a18fc712a273c7d610215119fc55fd98123f24fd02d23006e78deca7e3ad343a8e90a1290766cf1922e979d78cb2f7f817e035e6f6
   languageName: node
   linkType: hard
 
@@ -2051,15 +2165,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.11.0":
-  version: 18.19.21
-  resolution: "@types/node@npm:18.19.21"
-  dependencies:
-    undici-types: ~5.26.4
-  checksum: a8c66d97426e8bbe341a6bdf42af9659ff5ad500c790b9046c981e234db42a1354a6ae86d5d1b75c86dfa018c742fb65c400a0e31d8f9f7505d4cfe5bd11ba72
-  languageName: node
-  linkType: hard
-
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.4
   resolution: "@types/normalize-package-data@npm:2.4.4"
@@ -2413,15 +2518,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-escapes@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "ansi-escapes@npm:5.0.0"
-  dependencies:
-    type-fest: ^1.0.2
-  checksum: d4b5eb8207df38367945f5dd2ef41e08c28edc192dc766ef18af6b53736682f49d8bfcfa4e4d6ecbc2e2f97c258fda084fb29a9e43b69170b71090f771afccac
-  languageName: node
-  linkType: hard
-
 "ansi-regex@npm:^5.0.1":
   version: 5.0.1
   resolution: "ansi-regex@npm:5.0.1"
@@ -2461,7 +2557,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ansi-styles@npm:^6.0.0, ansi-styles@npm:^6.1.0":
+"ansi-styles@npm:^6.1.0":
   version: 6.2.1
   resolution: "ansi-styles@npm:6.2.1"
   checksum: ef940f2f0ced1a6347398da88a91da7930c33ecac3c77b72c5905f8b8fe402c52e6fde304ff5347f616e27a742da3f1dc76de98f6866c69251ad0b07a66776d9
@@ -3005,13 +3101,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:5.3.0, chalk@npm:^5.3.0":
-  version: 5.3.0
-  resolution: "chalk@npm:5.3.0"
-  checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
-  languageName: node
-  linkType: hard
-
 "chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
@@ -3033,6 +3122,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chalk@npm:^5.3.0":
+  version: 5.3.0
+  resolution: "chalk@npm:5.3.0"
+  checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
+  languageName: node
+  linkType: hard
+
 "chardet@npm:^0.7.0":
   version: 0.7.0
   resolution: "chardet@npm:0.7.0"
@@ -3044,13 +3140,6 @@ __metadata:
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
   checksum: c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
-  languageName: node
-  linkType: hard
-
-"ci-info@npm:^1.5.0":
-  version: 1.6.0
-  resolution: "ci-info@npm:1.6.0"
-  checksum: dfc058f60c3889793befe77349c3cd1a5452d21bed5ff60cb34382bee7bbdccc5c4c2ff2b77eab8c411c54d84f93963dacf593b9d901b43b93b7ad2a422aa163
   languageName: node
   linkType: hard
 
@@ -3077,15 +3166,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cli-cursor@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "cli-cursor@npm:4.0.0"
-  dependencies:
-    restore-cursor: ^4.0.0
-  checksum: ab3f3ea2076e2176a1da29f9d64f72ec3efad51c0960898b56c8a17671365c26e67b735920530eaf7328d61f8bd41c27f46b9cf6e4e10fe2fa44b5e8c0e392cc
-  languageName: node
-  linkType: hard
-
 "cli-spinners@npm:2.6.1":
   version: 2.6.1
   resolution: "cli-spinners@npm:2.6.1"
@@ -3097,16 +3177,6 @@ __metadata:
   version: 2.9.2
   resolution: "cli-spinners@npm:2.9.2"
   checksum: 1bd588289b28432e4676cb5d40505cfe3e53f2e4e10fbe05c8a710a154d6fe0ce7836844b00d6858f740f2ffe67cdc36e0fce9c7b6a8430e80e6388d5aa4956c
-  languageName: node
-  linkType: hard
-
-"cli-truncate@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "cli-truncate@npm:3.1.0"
-  dependencies:
-    slice-ansi: ^5.0.0
-    string-width: ^5.0.0
-  checksum: c3243e41974445691c63f8b405df1d5a24049dc33d324fe448dc572e561a7b772ae982692900b1a5960901cc4fc7def25a629b9c69a4208ee89d12ab3332617a
   languageName: node
   linkType: hard
 
@@ -3223,13 +3293,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorette@npm:^2.0.20":
-  version: 2.0.20
-  resolution: "colorette@npm:2.0.20"
-  checksum: 0c016fea2b91b733eb9f4bcdb580018f52c0bc0979443dad930e5037a968237ac53d9beb98e218d2e9235834f8eebce7f8e080422d6194e957454255bde71d3d
-  languageName: node
-  linkType: hard
-
 "columnify@npm:1.6.0":
   version: 1.6.0
   resolution: "columnify@npm:1.6.0"
@@ -3246,13 +3309,6 @@ __metadata:
   dependencies:
     delayed-stream: ~1.0.0
   checksum: 49fa4aeb4916567e33ea81d088f6584749fc90c7abec76fd516bf1c5aa5c79f3584b5ba3de6b86d26ddd64bae5329c4c7479343250cfe71c75bb366eae53bb7c
-  languageName: node
-  linkType: hard
-
-"commander@npm:11.0.0":
-  version: 11.0.0
-  resolution: "commander@npm:11.0.0"
-  checksum: 6621954e1e1d078b4991c1f5bbd9439ad37aa7768d6ab4842de1dbd4d222c8a27e1b8e62108b3a92988614af45031d5bb2a2aaa92951f4d0c934d1a1ac564bb4
   languageName: node
   linkType: hard
 
@@ -3450,17 +3506,6 @@ __metadata:
     typescript:
       optional: true
   checksum: dc339ebea427898c9e03bf01b56ba7afbac07fc7d2a2d5a15d6e9c14de98275a9565da949375aee1809591c152c0a3877bb86dbeaf74d5bd5aaa79955ad9e7a0
-  languageName: node
-  linkType: hard
-
-"cross-spawn@npm:^5.0.1":
-  version: 5.1.0
-  resolution: "cross-spawn@npm:5.1.0"
-  dependencies:
-    lru-cache: ^4.0.1
-    shebang-command: ^1.2.0
-    which: ^1.2.9
-  checksum: 726939c9954fc70c20e538923feaaa33bebc253247d13021737c3c7f68cdc3e0a57f720c0fe75057c0387995349f3f12e20e9bfdbf12274db28019c7ea4ec166
   languageName: node
   linkType: hard
 
@@ -3739,7 +3784,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:4, debug@npm:4.3.4, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
+"debug@npm:4, debug@npm:^4.3.1, debug@npm:^4.3.2, debug@npm:^4.3.3, debug@npm:^4.3.4":
   version: 4.3.4
   resolution: "debug@npm:4.3.4"
   dependencies:
@@ -4564,14 +4609,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eventemitter3@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "eventemitter3@npm:5.0.1"
-  checksum: 543d6c858ab699303c3c32e0f0f47fc64d360bf73c3daf0ac0b5079710e340d6fe9f15487f94e66c629f5f82cd1a8678d692f3dbb6f6fcd1190e1b97fcad36f8
-  languageName: node
-  linkType: hard
-
-"events@npm:^3.3.0":
+"events@npm:*, events@npm:^3.3.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
   checksum: f6f487ad2198aa41d878fa31452f1a3c00958f46e9019286ff4787c84aac329332ab45c9cdc8c445928fc6d7ded294b9e005a7fce9426488518017831b272780
@@ -4592,38 +4630,6 @@ __metadata:
     signal-exit: ^3.0.3
     strip-final-newline: ^2.0.0
   checksum: a044367ebdcc68ca019810cb134510fc77bbc55c799122258ee0e00e289c132941ab48c2a331a036699c42bc8d479d451ae67c105fce5ce5cc813e7dd92d642b
-  languageName: node
-  linkType: hard
-
-"execa@npm:7.2.0":
-  version: 7.2.0
-  resolution: "execa@npm:7.2.0"
-  dependencies:
-    cross-spawn: ^7.0.3
-    get-stream: ^6.0.1
-    human-signals: ^4.3.0
-    is-stream: ^3.0.0
-    merge-stream: ^2.0.0
-    npm-run-path: ^5.1.0
-    onetime: ^6.0.0
-    signal-exit: ^3.0.7
-    strip-final-newline: ^3.0.0
-  checksum: 14fd17ba0ca8c87b277584d93b1d9fc24f2a65e5152b31d5eb159a3b814854283eaae5f51efa9525e304447e2f757c691877f7adff8fde5746aae67eb1edd1cc
-  languageName: node
-  linkType: hard
-
-"execa@npm:^0.8.0":
-  version: 0.8.0
-  resolution: "execa@npm:0.8.0"
-  dependencies:
-    cross-spawn: ^5.0.1
-    get-stream: ^3.0.0
-    is-stream: ^1.1.0
-    npm-run-path: ^2.0.0
-    p-finally: ^1.0.0
-    signal-exit: ^3.0.0
-    strip-eof: ^1.0.0
-  checksum: c2a4bf6e051737e46bee61a93ec286cb71a05f16650a1918c8d6262ba9f0bac031472252411baa8c78b7f432f10cb4c601349403774d69be2ebd864e9b1eca60
   languageName: node
   linkType: hard
 
@@ -5103,13 +5109,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"get-stream@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "get-stream@npm:3.0.0"
-  checksum: 36142f46005ed74ce3a45c55545ec4e7da8e243554179e345a786baf144e5c4a35fb7bdc49fadfa9f18bd08000589b6fe364abdadfc4e1eb0e1b9914a6bb9c56
-  languageName: node
-  linkType: hard
-
 "get-stream@npm:^6.0.0, get-stream@npm:^6.0.1":
   version: 6.0.1
   resolution: "get-stream@npm:6.0.1"
@@ -5551,13 +5550,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"human-signals@npm:^4.3.0":
-  version: 4.3.1
-  resolution: "human-signals@npm:4.3.1"
-  checksum: 6f12958df3f21b6fdaf02d90896c271df00636a31e2bbea05bddf817a35c66b38a6fdac5863e2df85bd52f34958997f1f50350ff97249e1dff8452865d5235d1
-  languageName: node
-  linkType: hard
-
 "human-signals@npm:^5.0.0":
   version: 5.0.0
   resolution: "human-signals@npm:5.0.0"
@@ -5854,17 +5846,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-ci@npm:^1.0.10":
-  version: 1.2.1
-  resolution: "is-ci@npm:1.2.1"
-  dependencies:
-    ci-info: ^1.5.0
-  bin:
-    is-ci: bin.js
-  checksum: eca06c5626e54ec01be6f9114a8f19b3f571602cfe66458e42ccc42e401e2ebbe1bd3b2fcaa93b5896b9c759e964f3c7f4d9b2d0f4fc4ef5dba78a7c4825e0be
-  languageName: node
-  linkType: hard
-
 "is-core-module@npm:^2.1.0, is-core-module@npm:^2.13.0, is-core-module@npm:^2.13.1, is-core-module@npm:^2.5.0, is-core-module@npm:^2.8.1":
   version: 2.13.1
   resolution: "is-core-module@npm:2.13.1"
@@ -5919,13 +5900,6 @@ __metadata:
   version: 3.0.0
   resolution: "is-fullwidth-code-point@npm:3.0.0"
   checksum: 44a30c29457c7fb8f00297bce733f0a64cd22eca270f83e58c105e0d015e45c019491a4ab2faef91ab51d4738c670daff901c799f6a700e27f7314029e99e348
-  languageName: node
-  linkType: hard
-
-"is-fullwidth-code-point@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "is-fullwidth-code-point@npm:4.0.0"
-  checksum: 8ae89bf5057bdf4f57b346fb6c55e9c3dd2549983d54191d722d5c739397a903012cc41a04ee3403fd872e811243ef91a7c5196da7b5841dc6b6aae31a264a8d
   languageName: node
   linkType: hard
 
@@ -6060,13 +6034,6 @@ __metadata:
   version: 2.0.0
   resolution: "is-stream@npm:2.0.0"
   checksum: 4dc47738e26bc4f1b3be9070b6b9e39631144f204fc6f87db56961220add87c10a999ba26cf81699f9ef9610426f69cb08a4713feff8deb7d8cadac907826935
-  languageName: node
-  linkType: hard
-
-"is-stream@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "is-stream@npm:1.1.0"
-  checksum: 063c6bec9d5647aa6d42108d4c59723d2bd4ae42135a2d4db6eadbd49b7ea05b750fd69d279e5c7c45cf9da753ad2c00d8978be354d65aa9f6bb434969c6a2ae
   languageName: node
   linkType: hard
 
@@ -6442,7 +6409,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"leaflet.wms@npm:^0.2.0":
+"leaflet.wms@npm:*, leaflet.wms@npm:^0.2.0":
   version: 0.2.0
   resolution: "leaflet.wms@npm:0.2.0"
   dependencies:
@@ -6585,7 +6552,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lilconfig@npm:2.1.0, lilconfig@npm:^2.0.3, lilconfig@npm:^2.0.5":
+"lilconfig@npm:^2.0.3, lilconfig@npm:^2.0.5":
   version: 2.1.0
   resolution: "lilconfig@npm:2.1.0"
   checksum: 8549bb352b8192375fed4a74694cd61ad293904eee33f9d4866c2192865c44c4eb35d10782966242634e0cbc1e91fe62b1247f148dc5514918e3a966da7ea117
@@ -6610,45 +6577,6 @@ __metadata:
   version: 2.0.4
   resolution: "lines-and-columns@npm:2.0.4"
   checksum: f5e3e207467d3e722280c962b786dc20ebceb191821dcd771d14ab3146b6744cae28cf305ee4638805bec524ac54800e15698c853fcc53243821f88df37e4975
-  languageName: node
-  linkType: hard
-
-"lint-staged@npm:^13.0.3":
-  version: 13.3.0
-  resolution: "lint-staged@npm:13.3.0"
-  dependencies:
-    chalk: 5.3.0
-    commander: 11.0.0
-    debug: 4.3.4
-    execa: 7.2.0
-    lilconfig: 2.1.0
-    listr2: 6.6.1
-    micromatch: 4.0.5
-    pidtree: 0.6.0
-    string-argv: 0.3.2
-    yaml: 2.3.1
-  bin:
-    lint-staged: bin/lint-staged.js
-  checksum: f7c146cc2849c9ce4f1d2808d990fcbdef5e0bb79e6e79cc895f53c91f5ac4dcefdb8c3465156b38a015dcb051f2795c6bda4f20a1e2f2fa654c7ba521b2d2e0
-  languageName: node
-  linkType: hard
-
-"listr2@npm:6.6.1":
-  version: 6.6.1
-  resolution: "listr2@npm:6.6.1"
-  dependencies:
-    cli-truncate: ^3.1.0
-    colorette: ^2.0.20
-    eventemitter3: ^5.0.1
-    log-update: ^5.0.1
-    rfdc: ^1.3.0
-    wrap-ansi: ^8.1.0
-  peerDependencies:
-    enquirer: ">= 2.3.0 < 3"
-  peerDependenciesMeta:
-    enquirer:
-      optional: true
-  checksum: 99600e8a51f838f7208bce7e16d6b3d91d361f13881e6aa91d0b561a9a093ddcf63b7bc2a7b47aec7fdbff9d0e8c9f68cb66e6dfe2d857e5b1df8ab045c26ce8
   languageName: node
   linkType: hard
 
@@ -6777,19 +6705,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"log-update@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "log-update@npm:5.0.1"
-  dependencies:
-    ansi-escapes: ^5.0.0
-    cli-cursor: ^4.0.0
-    slice-ansi: ^5.0.0
-    strip-ansi: ^7.0.1
-    wrap-ansi: ^8.0.1
-  checksum: 2c6b47dcce6f9233df6d232a37d9834cb3657a0749ef6398f1706118de74c55f158587d4128c225297ea66803f35c5ac3db4f3f617046d817233c45eedc32ef1
-  languageName: node
-  linkType: hard
-
 "longest@npm:^1.0.1":
   version: 1.0.1
   resolution: "longest@npm:1.0.1"
@@ -6801,16 +6716,6 @@ __metadata:
   version: 10.2.0
   resolution: "lru-cache@npm:10.2.0"
   checksum: eee7ddda4a7475deac51ac81d7dd78709095c6fa46e8350dc2d22462559a1faa3b81ed931d5464b13d48cbd7e08b46100b6f768c76833912bc444b99c37e25db
-  languageName: node
-  linkType: hard
-
-"lru-cache@npm:^4.0.1":
-  version: 4.1.5
-  resolution: "lru-cache@npm:4.1.5"
-  dependencies:
-    pseudomap: ^1.0.2
-    yallist: ^2.1.2
-  checksum: 4bb4b58a36cd7dc4dcec74cbe6a8f766a38b7426f1ff59d4cf7d82a2aa9b9565cd1cb98f6ff60ce5cd174524868d7bc9b7b1c294371851356066ca9ac4cf135a
   languageName: node
   linkType: hard
 
@@ -7026,7 +6931,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:4.0.5, micromatch@npm:^4.0.4":
+"micromatch@npm:^4.0.4":
   version: 4.0.5
   resolution: "micromatch@npm:4.0.5"
   dependencies:
@@ -7488,13 +7393,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"normalize-path@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "normalize-path@npm:1.0.0"
-  checksum: b8b66ac272c7bbf63a3e47a050a5570b137c3e5085e410e2a0fffe1ff663e24e53c51364666586bd38f931e357d3cb5760a30e3c2f902a03f84bd7bf06e7f727
-  languageName: node
-  linkType: hard
-
 "normalize-range@npm:^0.1.2":
   version: 0.1.2
   resolution: "normalize-range@npm:0.1.2"
@@ -7647,15 +7545,6 @@ __metadata:
     npm-package-arg: ^11.0.0
     proc-log: ^3.0.0
   checksum: 6aa8483973aaf8c8543753d415983eb6722ecba0703030f3b152074eaa1106df75ffd084e483f30a33c81203c7ec07555bcc9e45fc07f7c0904501506c0929a2
-  languageName: node
-  linkType: hard
-
-"npm-run-path@npm:^2.0.0":
-  version: 2.0.2
-  resolution: "npm-run-path@npm:2.0.2"
-  dependencies:
-    path-key: ^2.0.0
-  checksum: acd5ad81648ba4588ba5a8effb1d98d2b339d31be16826a118d50f182a134ac523172101b82eab1d01cb4c2ba358e857d54cfafd8163a1ffe7bd52100b741125
   languageName: node
   linkType: hard
 
@@ -8202,13 +8091,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-key@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "path-key@npm:2.0.1"
-  checksum: f7ab0ad42fe3fb8c7f11d0c4f849871e28fbd8e1add65c370e422512fc5887097b9cf34d09c1747d45c942a8c1e26468d6356e2df3f740bf177ab8ca7301ebfd
-  languageName: node
-  linkType: hard
-
 "path-key@npm:^3.0.0, path-key@npm:^3.1.0":
   version: 3.1.1
   resolution: "path-key@npm:3.1.1"
@@ -8289,15 +8171,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pidtree@npm:0.6.0":
-  version: 0.6.0
-  resolution: "pidtree@npm:0.6.0"
-  bin:
-    pidtree: bin/pidtree.js
-  checksum: 8fbc073ede9209dd15e80d616e65eb674986c93be49f42d9ddde8dbbd141bb53d628a7ca4e58ab5c370bb00383f67d75df59a9a226dede8fa801267a7030c27a
-  languageName: node
-  linkType: hard
-
 "pify@npm:5.0.0, pify@npm:^5.0.0":
   version: 5.0.0
   resolution: "pify@npm:5.0.0"
@@ -8335,7 +8208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"polylabel@npm:^1.1.0":
+"polylabel@npm:^1.*, polylabel@npm:^1.1.0":
   version: 1.1.0
   resolution: "polylabel@npm:1.1.0"
   dependencies:
@@ -9213,13 +9086,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pseudomap@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "pseudomap@npm:1.0.2"
-  checksum: 856c0aae0ff2ad60881168334448e898ad7a0e45fe7386d114b150084254c01e200c957cf378378025df4e052c7890c5bd933939b0e0d2ecfcc1dc2f0b2991f5
-  languageName: node
-  linkType: hard
-
 "punycode@npm:^2.1.0":
   version: 2.3.1
   resolution: "punycode@npm:2.3.1"
@@ -9547,16 +9413,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"restore-cursor@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "restore-cursor@npm:4.0.0"
-  dependencies:
-    onetime: ^5.1.0
-    signal-exit: ^3.0.2
-  checksum: 5b675c5a59763bf26e604289eab35711525f11388d77f409453904e1e69c0d37ae5889295706b2c81d23bd780165084d040f9b68fffc32cc921519031c4fa4af
-  languageName: node
-  linkType: hard
-
 "retry@npm:^0.12.0":
   version: 0.12.0
   resolution: "retry@npm:0.12.0"
@@ -9568,13 +9424,6 @@ __metadata:
   version: 1.0.4
   resolution: "reusify@npm:1.0.4"
   checksum: c3076ebcc22a6bc252cb0b9c77561795256c22b757f40c0d8110b1300723f15ec0fc8685e8d4ea6d7666f36c79ccc793b1939c748bf36f18f542744a4e379fcc
-  languageName: node
-  linkType: hard
-
-"rfdc@npm:^1.3.0":
-  version: 1.3.1
-  resolution: "rfdc@npm:1.3.1"
-  checksum: d5d1e930aeac7e0e0a485f97db1356e388bdbeff34906d206fe524dd5ada76e95f186944d2e68307183fdc39a54928d4426bbb6734851692cfe9195efba58b79
   languageName: node
   linkType: hard
 
@@ -9830,37 +9679,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root@workspace:."
   dependencies:
-    "@nextgis/build-tools": 1.19.0
-    "@nextgis/eslint-config": ^1.19.0
-    "@rollup/plugin-alias": ^5.1.0
-    "@rollup/plugin-commonjs": ^25.0.7
-    "@rollup/plugin-image": ^3.0.3
-    "@rollup/plugin-json": ^6.1.0
-    "@rollup/plugin-node-resolve": ^15.2.3
-    "@rollup/plugin-replace": ^5.0.5
-    "@rollup/plugin-terser": ^0.4.4
-    "@types/cssnano": ^5.1.0
-    "@types/node": ^18.11.0
-    autoprefixer: ^10.4.17
-    chalk: ^5.3.0
-    cssnano: ^6.0.5
-    esbuild: ^0.20.1
+    "@nextgis/build-tools": 2.0.0-alpha.0
+    "@nextgis/eslint-config": 1.19.0
     eslint-plugin-tsdoc: ^0.2.17
     execa: ^8.0.1
     lerna: ^8.1.2
-    lint-staged: ^13.0.3
-    postcss: ^8.4.35
-    postcss-url: ^10.1.3
-    rimraf: ^5.0.5
-    rollup: ^4.12.0
-    rollup-plugin-dts: ^6.1.0
-    rollup-plugin-esbuild: ^6.1.1
-    rollup-plugin-polyfill-node: ^0.13.0
-    rollup-plugin-postcss: ^4.0.2
-    rollup-plugin-terser: ^7.0.2
-    rollup-plugin-typescript2: ^0.36.0
-    typescript: ~5.1
-    yorkie: ^2.0.0
+    rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
@@ -10059,28 +9883,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shebang-command@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "shebang-command@npm:1.2.0"
-  dependencies:
-    shebang-regex: ^1.0.0
-  checksum: 9eed1750301e622961ba5d588af2212505e96770ec376a37ab678f965795e995ade7ed44910f5d3d3cb5e10165a1847f52d3348c64e146b8be922f7707958908
-  languageName: node
-  linkType: hard
-
 "shebang-command@npm:^2.0.0":
   version: 2.0.0
   resolution: "shebang-command@npm:2.0.0"
   dependencies:
     shebang-regex: ^3.0.0
   checksum: 6b52fe87271c12968f6a054e60f6bde5f0f3d2db483a1e5c3e12d657c488a15474121a1d55cd958f6df026a54374ec38a4a963988c213b7570e1d51575cea7fa
-  languageName: node
-  linkType: hard
-
-"shebang-regex@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "shebang-regex@npm:1.0.0"
-  checksum: 404c5a752cd40f94591dfd9346da40a735a05139dac890ffc229afba610854d8799aaa52f87f7e0c94c5007f2c6af55bdcaeb584b56691926c5eaf41dc8f1372
   languageName: node
   linkType: hard
 
@@ -10103,7 +9911,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"signal-exit@npm:3.0.7, signal-exit@npm:^3.0.0, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
+"signal-exit@npm:3.0.7, signal-exit@npm:^3.0.2, signal-exit@npm:^3.0.3, signal-exit@npm:^3.0.7":
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
@@ -10157,16 +9965,6 @@ __metadata:
   version: 4.0.0
   resolution: "slash@npm:4.0.0"
   checksum: da8e4af73712253acd21b7853b7e0dbba776b786e82b010a5bfc8b5051a1db38ed8aba8e1e8f400dd2c9f373be91eb1c42b66e91abb407ff42b10feece5e1d2d
-  languageName: node
-  linkType: hard
-
-"slice-ansi@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "slice-ansi@npm:5.0.0"
-  dependencies:
-    ansi-styles: ^6.0.0
-    is-fullwidth-code-point: ^4.0.0
-  checksum: 7e600a2a55e333a21ef5214b987c8358fe28bfb03c2867ff2cbf919d62143d1812ac27b4297a077fdaf27a03da3678e49551c93e35f9498a3d90221908a1180e
   languageName: node
   linkType: hard
 
@@ -10429,7 +10227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-argv@npm:0.3.2, string-argv@npm:~0.3.1":
+"string-argv@npm:~0.3.1":
   version: 0.3.2
   resolution: "string-argv@npm:0.3.2"
   checksum: 8703ad3f3db0b2641ed2adbb15cf24d3945070d9a751f9e74a924966db9f325ac755169007233e8985a39a6a292f14d4fee20482989b89b96e473c4221508a0f
@@ -10454,7 +10252,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width@npm:^5.0.0, string-width@npm:^5.0.1, string-width@npm:^5.1.2":
+"string-width@npm:^5.0.1, string-width@npm:^5.1.2":
   version: 5.1.2
   resolution: "string-width@npm:5.1.2"
   dependencies:
@@ -10548,13 +10346,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-eof@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "strip-eof@npm:1.0.0"
-  checksum: 40bc8ddd7e072f8ba0c2d6d05267b4e0a4800898c3435b5fb5f5a21e6e47dfaff18467e7aa0d1844bb5d6274c3097246595841fbfeb317e541974ee992cac506
-  languageName: node
-  linkType: hard
-
 "strip-final-newline@npm:^2.0.0":
   version: 2.0.0
   resolution: "strip-final-newline@npm:2.0.0"
@@ -10566,13 +10357,6 @@ __metadata:
   version: 3.0.0
   resolution: "strip-final-newline@npm:3.0.0"
   checksum: 23ee263adfa2070cd0f23d1ac14e2ed2f000c9b44229aec9c799f1367ec001478469560abefd00c5c99ee6f0b31c137d53ec6029c53e9f32a93804e18c201050
-  languageName: node
-  linkType: hard
-
-"strip-indent@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "strip-indent@npm:2.0.0"
-  checksum: 7d9080d02ddace616ebbc17846e41d3880cb147e2a81e51142281322ded6b05b230a4fb12c2e5266f62735cf8f5fb9839e55d74799d11f26bcc8c71ca049a0ba
   languageName: node
   linkType: hard
 
@@ -10985,13 +10769,6 @@ __metadata:
   version: 0.8.1
   resolution: "type-fest@npm:0.8.1"
   checksum: d61c4b2eba24009033ae4500d7d818a94fd6d1b481a8111612ee141400d5f1db46f199c014766b9fa9b31a6a7374d96fc748c6d688a78a3ce5a33123839becb7
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^1.0.2":
-  version: 1.4.0
-  resolution: "type-fest@npm:1.4.0"
-  checksum: b011c3388665b097ae6a109a437a04d6f61d81b7357f74cbcb02246f2f5bd72b888ae33631b99871388122ba0a87f4ff1c94078e7119ff22c70e52c0ff828201
   languageName: node
   linkType: hard
 
@@ -11420,7 +11197,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which@npm:^1.2.9, which@npm:^1.3.1":
+"which@npm:^1.3.1":
   version: 1.3.1
   resolution: "which@npm:1.3.1"
   dependencies:
@@ -11505,7 +11282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrap-ansi@npm:^8.0.1, wrap-ansi@npm:^8.1.0":
+"wrap-ansi@npm:^8.1.0":
   version: 8.1.0
   resolution: "wrap-ansi@npm:8.1.0"
   dependencies:
@@ -11599,24 +11376,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yallist@npm:^2.1.2":
-  version: 2.1.2
-  resolution: "yallist@npm:2.1.2"
-  checksum: 9ba99409209f485b6fcb970330908a6d41fa1c933f75e08250316cce19383179a6b70a7e0721b89672ebb6199cc377bf3e432f55100da6a7d6e11902b0a642cb
-  languageName: node
-  linkType: hard
-
 "yallist@npm:^4.0.0":
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 343617202af32df2a15a3be36a5a8c0c8545208f3d3dfbc6bb7c3e3b7e8c6f8e7485432e4f3b88da3031a6e20afa7c711eded32ddfb122896ac5d914e75848d5
-  languageName: node
-  linkType: hard
-
-"yaml@npm:2.3.1":
-  version: 2.3.1
-  resolution: "yaml@npm:2.3.1"
-  checksum: 2c7bc9a7cd4c9f40d3b0b0a98e370781b68b8b7c4515720869aced2b00d92f5da1762b4ffa947f9e795d6cd6b19f410bd4d15fdd38aca7bd96df59bd9486fb54
   languageName: node
   linkType: hard
 
@@ -11687,18 +11450,6 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: f77b3d8d00310def622123df93d4ee654fc6a0096182af8bd60679ddcdfb3474c56c6c7190817c84a2785648cdee9d721c0154eb45698c62176c322fb46fc700
-  languageName: node
-  linkType: hard
-
-"yorkie@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "yorkie@npm:2.0.0"
-  dependencies:
-    execa: ^0.8.0
-    is-ci: ^1.0.10
-    normalize-path: ^1.0.0
-    strip-indent: ^2.0.0
-  checksum: 6810adaf6be7b6cc115ed9454e5a4e8e0949deecb107d65dc0c196051e862f04d6394ad12fbef0d51e6c730329992ae98625ba82cba5e34775023ddb6dc921b8
   languageName: node
   linkType: hard
 

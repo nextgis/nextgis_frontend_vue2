@@ -23,7 +23,7 @@ function checkLib(pkg) {
 }
 
 function checkBundle(lib) {
-  const re = /\/\*\* Bundle of (\D+); version: (\S+); author: (\w+) \*\//;
+  const re = /Bundle of ([^;]+); version: (\S+); author: (\w+)/;
   try {
     const pkg = lib.package;
     const formats = pkg.buildOptions.formats;

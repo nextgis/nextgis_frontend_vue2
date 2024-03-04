@@ -34,7 +34,7 @@
   },
   "include": [
     "@nextgis/packages/global.d.ts",
-    "@nextgis/packages/mapboxgl-map-adapter/src/maplibregl.d.ts",
+    "@nextgis/packages/maplibre-gl-map-adapter/src/maplibregl.d.ts",
     "packages/*/src"
   ],
   "exclude": ["tests", "node_modules"]
