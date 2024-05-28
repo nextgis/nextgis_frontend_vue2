@@ -22,7 +22,7 @@
   "repository": "https://github.com/nextgis/nextgis_frontend_vue2",
   "devDependencies": {
     "@nextgis/build-tools": "2.0.0-alpha.0",
-    "@nextgis/eslint-config": "1.19.0",
+    "@nextgis/eslint-config": "^2.0.2",
     "eslint-plugin-tsdoc": "^0.2.17",
     "execa": "^8.0.1",
     "lerna": "^8.1.2",
@@ -31,5 +31,6 @@
   "license": "MIT",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "packageManager": "yarn@3.6.3+sha256.08ead1821a257416e6f217e89365425bf4b6d2430c3279318bedcec1a245fff5"
 }

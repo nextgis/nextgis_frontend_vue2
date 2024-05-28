@@ -6,14 +6,16 @@
   "module": "lib/vue2-ngw-leaflet.esm-bundler.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/leaflet-map-adapter": "^2.0.0-alpha.0",
-    "@nextgis/vue2-ngw-map": "^2.0.0-alpha.0",
-    "leaflet": ">=1",
-    "leaflet.wms": "^0.2.0"
+    "@nextgis/vue2-ngw-map": "^2.0.0-alpha.0"
   },
   "devDependencies": {
-    "@nextgis/build-tools": "^2.0.0-alpha.0",
+    "@nextgis/build-tools": "^2.0.2",
+    "@nextgis/leaflet-map-adapter": "^2.2.3",
+    "@types/leaflet": "^1.7.5",
     "leaflet": "1.7.1"
+  },
+  "peerDependencies": {
+    "@nextgis/leaflet-map-adapter": "*"
   },
   "buildOptions": {
     "name": "VueNgwLeaflet",
