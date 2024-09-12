@@ -5,7 +5,7 @@
   "scripts": {
     "clean": "lerna run clean",
     "dev": "lerna run dev",
-    "prod": "node ./@nextgis/packages/build-tools/lib/build.js --release",
+    "prod": "node ./node_modules/@nextgis/build-tools/lib/build.js --release",
     "prod:each": "lerna run prod && npm run test:build",
     "build-dts": "npx tsc -p tsconfig.build.json && rollup -c ./@nextgis/packages/build-tools/lib/rollup.dts.config.js",
     "test:build": "node ./scripts/testBuildCmd.mjs",

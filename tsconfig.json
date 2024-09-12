@@ -34,6 +34,7 @@
   },
   "include": [
     "@nextgis/packages/global.d.ts",
+    "@nextgis/packages/ngw-connector/src/global.d.ts",
     "@nextgis/packages/maplibre-gl-map-adapter/src/maplibregl.d.ts",
     "packages/*/src"
   ],

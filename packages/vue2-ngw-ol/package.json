@@ -13,8 +13,8 @@
   },
   "devDependencies": {
     "@nextgis/build-tools": "^2.0.2",
-    "@nextgis/ol-map-adapter": "^2.2.3",
-    "ol": "9.1.0"
+    "@nextgis/ol-map-adapter": "^3.0.0-alpha.5",
+    "ol": "^10.1.0"
   },
   "buildOptions": {
     "name": "VueNgwOl",
