@@ -1,12 +1,12 @@
 {
   "name": "@nextgis/vue2-ngw-maplibre-gl",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Vue2 NextGIS Web map component for Maplibre GL JS",
   "main": "lib/vue2-ngw-maplibre-gl.js",
   "module": "lib/vue2-ngw-maplibre-gl.esm-bundler.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/vue2-ngw-map": "^2.0.0"
+    "@nextgis/vue2-ngw-map": "^2.1.0"
   },
   "peerDependencies": {
     "@nextgis/maplibre-gl-map-adapter": "*"
