@@ -29,6 +29,9 @@ export class VueNgwControl extends Vue {
   control?: unknown;
   ready = false;
 
+  containerElement?: HTMLElement;
+  vueInstance?: Vue;
+
   get ngwMap(): NgwMap | undefined {
     return this.parentContainer && this.parentContainer.ngwMap;
   }
@@ -40,30 +43,50 @@ export class VueNgwControl extends Vue {
     }
   }
 
-  setControl(element: HTMLElement): void {
+  async setControl(element: HTMLElement | Vue): Promise<void> {
     const ngwMap = this.ngwMap;
     const control = this.control;
     if (ngwMap) {
       if (control) {
         ngwMap.removeControl(control);
       }
+
       const adControlOptions: CreateControlOptions = {
         ...this.$props,
         ...this.$props.controlOptions,
       };
+
+      let el: HTMLElement;
+
+      if (element instanceof Vue) {
+        this.containerElement = document.createElement('div');
+        el = this.containerElement;
+      } else {
+        el = element as HTMLElement;
+      }
+
       const controlObject: MapControl = {
         onAdd: () => {
-          return element;
+          return el;
         },
         onRemove: () => {
           // ignore
         },
       };
+
       let _control: keyof MapControls | any = this.kind;
       if (!_control) {
-        _control = ngwMap.createControl(controlObject, adControlOptions);
+        _control = await ngwMap.createControl(controlObject, adControlOptions);
       }
       this.control = ngwMap.addControl(_control, this.position);
+
+      if (element instanceof Vue) {
+        this.$nextTick(() => {
+          setTimeout(() => {
+            this.vueInstance?.$mount(this.containerElement);
+          });
+        });
+      }
     }
   }
 
@@ -72,7 +95,21 @@ export class VueNgwControl extends Vue {
     if (parent) {
       this.parentContainer = findNgwMapParent(parent);
     }
-    this.setControl(this.$el as HTMLElement);
+
+    const slotContent = this.$slots.default ? this.$slots.default[0] : null;
+    if (slotContent && slotContent.componentOptions) {
+      const ComponentConstructor = Vue.extend(
+        slotContent.componentOptions.Ctor,
+      );
+      const componentInstance = new ComponentConstructor({
+        propsData: slotContent.data && slotContent.data.attrs,
+      });
+      this.vueInstance = componentInstance;
+      this.setControl(componentInstance);
+    } else {
+      this.setControl(this.$el as HTMLElement);
+    }
+
     this.ready = true;
     propsBinder(this, this.$props);
 
@@ -90,9 +127,7 @@ export class VueNgwControl extends Vue {
     const data: VNodeData = {
       staticClass: 'vue-ngw-control',
       staticStyle,
-      // 'class': this.classes,
       attrs: { 'data-app': true },
-      // domProps: { id: this.id }
     };
     return this.ready ? h('div', data, this.$slots.default) : h('div', data);
   }
