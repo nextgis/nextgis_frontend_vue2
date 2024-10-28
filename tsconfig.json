@@ -36,7 +36,8 @@
     "@nextgis/packages/global.d.ts",
     "@nextgis/packages/ngw-connector/src/nextgisweb.d.ts",
     "@nextgis/packages/maplibre-gl-map-adapter/src/maplibregl.d.ts",
-    "packages/*/src"
+    "packages/*/src",
+    "nextgisweb.d.ts"
   ],
   "exclude": ["tests", "node_modules"]
 }

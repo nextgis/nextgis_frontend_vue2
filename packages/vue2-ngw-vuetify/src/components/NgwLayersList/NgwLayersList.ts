@@ -10,6 +10,7 @@ import type {
   ResourceAdapter,
   TreeGroup,
   TreeLayer,
+  TreeRoot,
 } from '@nextgis/ngw-kit';
 import type { LayerAdapter } from '@nextgis/ngw-map';
 import type { CreateElement, VNode, VNodeData } from 'vue';
@@ -163,7 +164,7 @@ export class NgwLayersList extends Vue {
     return h(VTreeview, data, this.$slots.default);
   }
 
-  private itemIsGroup(item: TreeGroup | TreeLayer) {
+  private itemIsGroup(item: TreeGroup | TreeLayer | TreeRoot) {
     return item.item_type === 'group' || item.item_type === 'root';
   }
 
