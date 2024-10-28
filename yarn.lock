@@ -739,6 +739,39 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nextgis/build-tools@npm:2.0.2":
+  version: 2.0.2
+  resolution: "@nextgis/build-tools@npm:2.0.2"
+  dependencies:
+    "@nextgis/eslint-config": ^2.0.2
+    "@rollup/plugin-alias": ^5.1.0
+    "@rollup/plugin-commonjs": ^25.0.7
+    "@rollup/plugin-image": ^3.0.3
+    "@rollup/plugin-json": ^6.1.0
+    "@rollup/plugin-node-resolve": ^15.2.3
+    "@rollup/plugin-replace": ^5.0.5
+    "@rollup/plugin-terser": ^0.4.4
+    "@types/cssnano": ^5.1.0
+    autoprefixer: ^10.4.17
+    chalk: ^5.3.0
+    cssnano: ^6.0.5
+    esbuild: ^0.20.1
+    execa: ^8.0.1
+    postcss: ^8.4.35
+    postcss-url: ^10.1.3
+    rimraf: ^5.0.5
+    rollup: ^4.12.0
+    rollup-plugin-dts: ^6.1.0
+    rollup-plugin-esbuild: ^6.1.1
+    rollup-plugin-polyfill-node: ^0.13.0
+    rollup-plugin-postcss: ^4.0.2
+    rollup-plugin-terser: ^7.0.2
+    rollup-plugin-typescript2: ^0.36.0
+    typescript: ~5.1
+  checksum: c35288412ccd544f02c3cdfebbc1a1a64c26cac5666d47049802bb442f2cd1eb59344bf8d6cb59ed54aedd8fd9e18ee85378a4cfeccea7f52e21c18d0092a0ce
+  languageName: node
+  linkType: hard
+
 "@nextgis/build-tools@npm:^2.0.2":
   version: 2.5.0
   resolution: "@nextgis/build-tools@npm:2.5.0"
@@ -772,30 +805,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/cancelable-promise@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/cancelable-promise@npm:3.0.0-alpha.5"
-  checksum: 0e95fa9aca4ad17eefb9dcc90314787497ad24bc9b35acb09d73b9c99846c72df007651cc049a9342334edc06d14d9113a61c6ce7bb681635859f94c791ebced
+"@nextgis/cancelable-promise@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/cancelable-promise@npm:3.0.0-alpha.13"
+  checksum: c7f989fa70c2f7de63f969466b1441401e42d5240540b4be3194d2d4378d1ad14a98d15d0ce0db3128d0779bb807c5fe439b4b2f8f15d718596b5fd3de42fe4c
   languageName: node
   linkType: hard
 
-"@nextgis/control-container@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/control-container@npm:3.0.0-alpha.5"
+"@nextgis/control-container@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/control-container@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/dom": ^3.0.0-alpha.5
-    "@nextgis/utils": ^3.0.0-alpha.5
-    "@nextgis/webmap": ^3.0.0-alpha.5
+    "@nextgis/dom": ^3.0.0-alpha.13
+    "@nextgis/utils": ^3.0.0-alpha.13
+    "@nextgis/webmap": ^3.0.0-alpha.13
     "@types/events": ^3.0.0
     events: "*"
-  checksum: 9290415d2ee5023f1078a126a6196effd29e95485fc9cee2203c55d72118a8c886723229f433e46a7896fc16fb0103a1d32d06470f639b836d79472df34887be
+  checksum: 2e9d073214e399bd4f0fe6f38cf636185765a98b98b8425bd957cacfaad36505f917432e3cf4d8ebc237cb185c1169be1809943f21cba0d620325b7eff25c598
   languageName: node
   linkType: hard
 
-"@nextgis/dom@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/dom@npm:3.0.0-alpha.5"
-  checksum: 899f7b0933b467e53fb03ee72621560ea08c272a65ffbcd5012c734d54d2598ec35b0912611b0341afb8bb7cda3f1dfe8a688fa2ef2cda80e67aa78cc0deb489
+"@nextgis/dom@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/dom@npm:3.0.0-alpha.13"
+  checksum: 613d56752270f0eb5114f4f59198d0ae9721143b16c3a6a1db02229a2dd665895efca47c12ee05bdf2c2434e9f289bf5d7f1d61a0aeaf5b65a3150dc97f38b13
   languageName: node
   linkType: hard
 
@@ -829,63 +862,59 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nextgis/expression@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/expression@npm:3.0.0-alpha.5"
-  checksum: d64127575c69e942b54db703d3e9ec08ad50b1eb10ead3674645d8002438a4f3ec305beebd833490a4d9518dedc97ec93d5912c37543689de66353c602b9a965
+"@nextgis/expression@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/expression@npm:3.0.0-alpha.13"
+  checksum: 7ad8f5ecdd901a19d7600a453c290d900febfb8b16ce0d607631ac4720be57fca80d6dde3fd7e284bf6c6b84134364d8b7333d673da0172becb6ac28031b3e9d
   languageName: node
   linkType: hard
 
-"@nextgis/leaflet-map-adapter@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/leaflet-map-adapter@npm:3.0.0-alpha.5"
+"@nextgis/leaflet-map-adapter@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/leaflet-map-adapter@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/paint": ^3.0.0-alpha.5
-    "@nextgis/queue": ^3.0.0-alpha.5
-    "@nextgis/utils": ^3.0.0-alpha.5
-    "@nextgis/webmap": ^3.0.0-alpha.5
+    "@nextgis/paint": ^3.0.0-alpha.13
+    "@nextgis/queue": ^3.0.0-alpha.13
+    "@nextgis/utils": ^3.0.0-alpha.13
+    "@nextgis/webmap": ^3.0.0-alpha.13
     "@types/events": ^3.0.3
     "@types/geojson": ^7946.0.14
     events: ^3.3.0
     leaflet.wms: ^0.2.0
   peerDependencies:
     leaflet: ">=1.5.0"
-  checksum: 004691d21091cb7a80a40a35c885380534050694ab163167e0166b2af7554a62831d2d8934cc4274b07e33c046effabdd302d87127fb0b26aa2e6d9054ea08cf
+  checksum: d94a1cac746ae8f9985a78bfc885a8da93981cebe9a09b89306f275757ae5dc16c845c2603b736c112268ef8229a94bda4bda4b07c1ff719a627942d0ccb5011
   languageName: node
   linkType: hard
 
-"@nextgis/maplibre-gl-map-adapter@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/maplibre-gl-map-adapter@npm:3.0.0-alpha.5"
+"@nextgis/maplibre-gl-map-adapter@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/maplibre-gl-map-adapter@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/paint": ^3.0.0-alpha.5
-    "@nextgis/properties-filter": ^3.0.0-alpha.5
-    "@nextgis/webmap": ^3.0.0-alpha.5
+    "@nextgis/paint": ^3.0.0-alpha.13
+    "@nextgis/properties-filter": ^3.0.0-alpha.13
+    "@nextgis/webmap": ^3.0.0-alpha.13
     "@types/events": ^3.0.3
     "@types/geojson": ^7946.0.14
     "@types/polylabel": ^1.1.3
-    canvg: ">=3"
     events: ^3.3.0
     polylabel: ^2.0.1
   peerDependencies:
     maplibre-gl: ">=2"
-  dependenciesMeta:
-    canvg:
-      optional: true
-  checksum: c706049e5b509c51553d6829c5160e84fad7b1cd0a18eb0f725c6d54e184536be8e09d0365947fd00e9759d0180b190a94259cc0872e1cc9021faa0efed1520d
+  checksum: 937f78c04c7f6a60adc264baad9bcc21d8be2730d05eddd67892ba4961e12fb31e5b293817cdc822656cf9944ea69871175b02b18a6625e39090f50c6a7b7921
   languageName: node
   linkType: hard
 
-"@nextgis/ol-map-adapter@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/ol-map-adapter@npm:3.0.0-alpha.5"
+"@nextgis/ol-map-adapter@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/ol-map-adapter@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/control-container": ^3.0.0-alpha.5
-    "@nextgis/dom": ^3.0.0-alpha.5
-    "@nextgis/paint": ^3.0.0-alpha.5
-    "@nextgis/properties-filter": ^3.0.0-alpha.5
-    "@nextgis/queue": ^3.0.0-alpha.5
-    "@nextgis/webmap": ^3.0.0-alpha.5
+    "@nextgis/control-container": ^3.0.0-alpha.13
+    "@nextgis/dom": ^3.0.0-alpha.13
+    "@nextgis/paint": ^3.0.0-alpha.13
+    "@nextgis/properties-filter": ^3.0.0-alpha.13
+    "@nextgis/queue": ^3.0.0-alpha.13
+    "@nextgis/webmap": ^3.0.0-alpha.13
     "@types/events": ^3.0.3
     "@types/geojson": ^7946.0.14
     "@types/polylabel": ^1.1.3
@@ -893,42 +922,42 @@ __metadata:
     polylabel: ^2.0.1
   peerDependencies:
     ol: ">=6.0.0"
-  checksum: abfbdd9c38a2f6b33efce0fbf0ca39547e639df73ba07836b3e0be5b93bdb1488a9ad847e33a04d7d2ce874d4e24637bcab0603b733f7d6913807138e974fe9b
+  checksum: a88e747d7eca4ead6c16dc8d58a2dfa979ad388e441dbd2930ff34999ffb4bc53675ffb5ddba40e05007722911b9726b972263a989fba34fff651b6a2c0cd01a
   languageName: node
   linkType: hard
 
-"@nextgis/paint@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/paint@npm:3.0.0-alpha.5"
+"@nextgis/paint@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/paint@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/expression": ^3.0.0-alpha.5
-    "@nextgis/properties-filter": ^3.0.0-alpha.5
+    "@nextgis/expression": ^3.0.0-alpha.13
+    "@nextgis/properties-filter": ^3.0.0-alpha.13
     "@types/geojson": ^7946.0.14
-  checksum: 266c84055fa12cb705667f166e90501867adf7927af8e98f37af442cdc3e2093833382f09c81110812ef400634229f653a4026df54dc9a35dc763070bf20a897
+  checksum: cfeee9cf57639c6c5b2895091d206106cc0615fe2afde710f685749e0a3424144fe55e44118c99d9b159cb9764bb80cd20dc2efd702196edfeb81f10b52e1ec8
   languageName: node
   linkType: hard
 
-"@nextgis/properties-filter@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/properties-filter@npm:3.0.0-alpha.5"
+"@nextgis/properties-filter@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/properties-filter@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/utils": ^3.0.0-alpha.5
+    "@nextgis/utils": ^3.0.0-alpha.13
     "@types/geojson": ^7946.0.14
-  checksum: fdbe5dda11e40d3446ef8c4985fc04347d874906393518b3f36ef6e2dab1ff6d9226320e26a682222ae886e6a6c8b5f091458c5905d2be337ea033f9f3bbf4ea
+  checksum: 5cd502f5e272b042173126a8fe286acd39a3bf107a1160ad2b0da1bc8e103b9de476ab67382ed0227eac4f2dd563deccc5e372521222d8834fcd794f95f410c5
   languageName: node
   linkType: hard
 
-"@nextgis/queue@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/queue@npm:3.0.0-alpha.5"
-  checksum: c21657f6c12cc14b1a97f86642e6d27f16218ad1df89f0c1d5b778efd799b04fd7579fe74ab1fdc0e99a555d0bb41a7b9e738633c7cc8e6e825be81e593827bb
+"@nextgis/queue@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/queue@npm:3.0.0-alpha.13"
+  checksum: da66c67aa8f8084032e382bf35999a0a250a0469fbf6d83f2f970d38ce20c2e60df9dd874030de16121ae170deb0626a28e128c8cddbd7f5ea3a03d847094981
   languageName: node
   linkType: hard
 
-"@nextgis/utils@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/utils@npm:3.0.0-alpha.5"
-  checksum: ba4fd1ea4ee3f12e700adec61b50a93e1f6ccc73a260ffefa6baf9e6ff6b6a7f2c70668f5f0b55d99910d09334b3c0bc1fe31834100cb460122cd616cfe64b7d
+"@nextgis/utils@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/utils@npm:3.0.0-alpha.13"
+  checksum: 71e81b5c6b7dd8cd35767bba2ed90045aceaa5c1ec3180b39edf47a6e9ac329259cfc081dbe45cc941cfa5b40f58d8b9f2efc51606fcfde25b84dfad8158f756
   languageName: node
   linkType: hard
 
@@ -937,9 +966,9 @@ __metadata:
   resolution: "@nextgis/vue2-ngw-leaflet@workspace:packages/vue2-ngw-leaflet"
   dependencies:
     "@nextgis/build-tools": ^2.0.2
-    "@nextgis/leaflet-map-adapter": ^3.0.0-alpha.5
+    "@nextgis/leaflet-map-adapter": ^3.0.0-alpha.13
     "@nextgis/vue2-ngw-map": ^2.2.0
-    "@types/leaflet": 1.7.5
+    "@types/leaflet": ^1.9.14
     leaflet: 1.7.1
   peerDependencies:
     "@nextgis/leaflet-map-adapter": "*"
@@ -950,7 +979,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@nextgis/vue2-ngw-map@workspace:packages/vue2-ngw-map"
   dependencies:
-    "@nextgis/build-tools": ^2.0.2
+    "@nextgis/build-tools": 2.0.2
     vue: ^2.7.16
     vue-class-component: ^7.2.6
     vue-property-decorator: ^9.1.2
@@ -968,7 +997,7 @@ __metadata:
   resolution: "@nextgis/vue2-ngw-maplibre-gl@workspace:packages/vue2-ngw-maplibre-gl"
   dependencies:
     "@nextgis/build-tools": ^2.0.2
-    "@nextgis/maplibre-gl-map-adapter": ^3.0.0-alpha.5
+    "@nextgis/maplibre-gl-map-adapter": ^3.0.0-alpha.13
     "@nextgis/vue2-ngw-map": ^2.2.0
     maplibre-gl: ^4.7.0
   peerDependencies:
@@ -981,7 +1010,7 @@ __metadata:
   resolution: "@nextgis/vue2-ngw-ol@workspace:packages/vue2-ngw-ol"
   dependencies:
     "@nextgis/build-tools": ^2.0.2
-    "@nextgis/ol-map-adapter": ^3.0.0-alpha.5
+    "@nextgis/ol-map-adapter": ^3.0.0-alpha.13
     "@nextgis/vue2-ngw-map": ^2.2.0
     ol: ^10.1.0
   peerDependencies:
@@ -1030,19 +1059,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@nextgis/webmap@npm:^3.0.0-alpha.5":
-  version: 3.0.0-alpha.5
-  resolution: "@nextgis/webmap@npm:3.0.0-alpha.5"
+"@nextgis/webmap@npm:^3.0.0-alpha.13":
+  version: 3.0.0-alpha.13
+  resolution: "@nextgis/webmap@npm:3.0.0-alpha.13"
   dependencies:
-    "@nextgis/cancelable-promise": ^3.0.0-alpha.5
-    "@nextgis/paint": ^3.0.0-alpha.5
-    "@nextgis/properties-filter": ^3.0.0-alpha.5
-    "@nextgis/utils": ^3.0.0-alpha.5
+    "@nextgis/cancelable-promise": ^3.0.0-alpha.13
+    "@nextgis/paint": ^3.0.0-alpha.13
+    "@nextgis/properties-filter": ^3.0.0-alpha.13
+    "@nextgis/utils": ^3.0.0-alpha.13
     "@types/events": ^3.0.0
     "@types/geojson": ^7946.0.14
     events: "*"
     strict-event-emitter-types: ^2.0.0
-  checksum: ebe4e0061e9ada7a2836b5dcc4e344806a5e99473a0330921cd0a489ca768d134bd9f8d469ea8cf837854ba09c1f212e244bad700411df89cc0d16c43d77a18e
+  checksum: 96948505bd1658656adbc1cde3e308c87ae0536dc2dacfd89c691faf141b9497520dbf6e99c10e9ed60a5657dac2963b196c9b8dd79954abcc25be5bccbf5c35
   languageName: node
   linkType: hard
 
@@ -2099,12 +2128,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/leaflet@npm:1.7.5":
-  version: 1.7.5
-  resolution: "@types/leaflet@npm:1.7.5"
+"@types/leaflet@npm:^1.9.14":
+  version: 1.9.14
+  resolution: "@types/leaflet@npm:1.9.14"
   dependencies:
     "@types/geojson": "*"
-  checksum: 922f3d1176017c350be997773df72d0fd8f31c2f0340a20d3a91eb31540c3e6ef09eb020cec85c74b05afd54f4095e406ab3a45c9328c31ea17f95aa6ef69c6e
+  checksum: 006e1fde1fa0ff513f9ef9bda7ce54dd3940f67148099c3740ce2dd6f9844a3d2a15ffe3b62c6bf5769cfb4358eb20431e9ab1876e054231ab5735bdcaeca26f
   languageName: node
   linkType: hard
 
@@ -2167,13 +2196,6 @@ __metadata:
   version: 1.1.3
   resolution: "@types/polylabel@npm:1.1.3"
   checksum: e51ec7b7ce9d3e576e78013825bc9ec2ed595aeaddbe15a95fa209fddc229a5e73411f1ed57e80cadd9679603bbdcd8c350733ed794c3af7b519bf570371d906
-  languageName: node
-  linkType: hard
-
-"@types/raf@npm:^3.4.0":
-  version: 3.4.3
-  resolution: "@types/raf@npm:3.4.3"
-  checksum: 70b0d8ce4ed1fdd60abbee8ff2a572bd2947bd764691f98ef948748375f5012db7ee39a037dd063cfbbb52c0b7479bec68111bbb95ce5de023ec581794c9b85f
   languageName: node
   linkType: hard
 
@@ -3045,19 +3067,6 @@ __metadata:
   version: 1.0.30001660
   resolution: "caniuse-lite@npm:1.0.30001660"
   checksum: 8b2c5de2f5facd31980426afbba68238270984acfe8c1ae925b8b6480448eea2fae292f815674617e9170c730c8a238d7cc0db919f184dc0e3cd9bec18f5e5ad
-  languageName: node
-  linkType: hard
-
-"canvg@npm:>=3":
-  version: 4.0.2
-  resolution: "canvg@npm:4.0.2"
-  dependencies:
-    "@types/raf": ^3.4.0
-    raf: ^3.4.1
-    rgbcolor: ^1.0.1
-    stackblur-canvas: ^2.0.0
-    svg-pathdata: ^6.0.3
-  checksum: b4d1969a998656ae8c1280c8cdc1c975d9559bd87838df1a111ec879a9b2ff48729d4ad0134ff6040d1ed31563834597337a8dc6f9bb870d1bb8a2277fb8ebb6
   languageName: node
   linkType: hard
 
@@ -8505,13 +8514,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"performance-now@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "performance-now@npm:2.1.0"
-  checksum: 534e641aa8f7cba160f0afec0599b6cecefbb516a2e837b512be0adbe6c1da5550e89c78059c7fabc5c9ffdf6627edabe23eb7c518c4500067a898fa65c2b550
-  languageName: node
-  linkType: hard
-
 "picocolors@npm:^1.0.0, picocolors@npm:^1.0.1":
   version: 1.0.1
   resolution: "picocolors@npm:1.0.1"
@@ -9981,15 +9983,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"raf@npm:^3.4.1":
-  version: 3.4.1
-  resolution: "raf@npm:3.4.1"
-  dependencies:
-    performance-now: ^2.1.0
-  checksum: 50ba284e481c8185dbcf45fc4618ba3aec580bb50c9121385d5698cb6012fe516d2015b1df6dd407a7b7c58d44be8086108236affbce1861edd6b44637c8cd52
-  languageName: node
-  linkType: hard
-
 "randombytes@npm:^2.1.0":
   version: 2.1.0
   resolution: "randombytes@npm:2.1.0"
@@ -10286,13 +10279,6 @@ __metadata:
   version: 1.0.4
   resolution: "reusify@npm:1.0.4"
   checksum: c3076ebcc22a6bc252cb0b9c77561795256c22b757f40c0d8110b1300723f15ec0fc8685e8d4ea6d7666f36c79ccc793b1939c748bf36f18f542744a4e379fcc
-  languageName: node
-  linkType: hard
-
-"rgbcolor@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "rgbcolor@npm:1.0.1"
-  checksum: bd062ac007a3e979e2f83dc69feb3cc4f9bca7d8631899548394160e30c47e4f7e52b31aa3f66a69061ad56e899e812ec52f5c33686c085d72c9b3d22faed1c8
   languageName: node
   linkType: hard
 
@@ -11074,13 +11060,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stackblur-canvas@npm:^2.0.0":
-  version: 2.7.0
-  resolution: "stackblur-canvas@npm:2.7.0"
-  checksum: 05b37ef9f1ba3aac2a1dda2f2c078cacd0668426ef689dbbfac7e90c79ef05e8dfad8e0d8474a1cc52776c5810e224ef163cbee2ec52f0a320dec8352ab2dece
-  languageName: node
-  linkType: hard
-
 "strict-event-emitter-types@npm:^2.0.0":
   version: 2.0.0
   resolution: "strict-event-emitter-types@npm:2.0.0"
@@ -11337,13 +11316,6 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
-  languageName: node
-  linkType: hard
-
-"svg-pathdata@npm:^6.0.3":
-  version: 6.0.3
-  resolution: "svg-pathdata@npm:6.0.3"
-  checksum: f0e55be50c654be5d259d70945ed7e5354bf78e51c6039b4045d9f7c49d703a0c33dda36751815aec2824d046c417c35226e7491246ffff3e9164735ea428446
   languageName: node
   linkType: hard
 

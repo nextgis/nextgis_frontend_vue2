@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@nextgis/build-tools": "^2.0.2",
-    "@nextgis/ol-map-adapter": "^3.0.0-alpha.5",
+    "@nextgis/ol-map-adapter": "^3.0.0-alpha.13",
     "ol": "^10.1.0"
   },
   "buildOptions": {

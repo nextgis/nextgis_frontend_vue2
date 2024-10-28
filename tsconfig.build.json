@@ -10,6 +10,7 @@
     "./@nextgis/packages/global.d.ts",
     "./@nextgis/packages/ngw-connector/src/nextgisweb.d.ts",
     "./@nextgis/packages/maplibre-gl-map-adapter/src/maplibregl.d.ts",
+    "nextgisweb.d.ts"
   ],
   "exclude": [
     "node_modules",

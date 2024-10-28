@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@nextgis/build-tools": "^2.0.2",
-    "@nextgis/maplibre-gl-map-adapter": "^3.0.0-alpha.5",
+    "@nextgis/maplibre-gl-map-adapter": "^3.0.0-alpha.13",
     "maplibre-gl": "^4.7.0"
   },
   "buildOptions": {

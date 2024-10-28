@@ -10,8 +10,8 @@
   },
   "devDependencies": {
     "@nextgis/build-tools": "^2.0.2",
-    "@nextgis/leaflet-map-adapter": "^3.0.0-alpha.5",
-    "@types/leaflet": "1.7.5",
+    "@nextgis/leaflet-map-adapter": "^3.0.0-alpha.13",
+    "@types/leaflet": "^1.9.14",
     "leaflet": "1.7.1"
   },
   "peerDependencies": {
